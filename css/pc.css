@@ -1,0 +1,539 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #fff; */
+}
+div{ 
+    cursor: default;
+    /* overflow:hidden; */
+}
+body{
+    background: url(../image/begin.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: inline;
+}
+.darkgray{
+    color: darkgray;
+}
+.yellow{
+    color: yellow;
+}
+.lightyellow{
+    color: rgb(255, 255, 158);
+}
+.pubg img{
+    width: 70px;
+    height: 35px;
+    padding: 20px 0px 0px 40px;
+    /* border: yellow solid 1px; */
+}
+ul{
+    list-style: none;
+}
+.row1{
+    width: 60%;
+}
+.row1 li{
+    min-width: 40px;
+    position: relative;
+    float: left;
+    left: 150px;
+    height: 37px;
+    top: -35px;
+    margin-left: 50px;
+    /* border: yellow solid 1px; */
+}
+@media screen and (max-width: 1300px) {
+    *{
+        display: none;
+    }
+}
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5{
+    font-size: 25px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: darkgray;
+    outline: none;
+}
+/* #btn1 a:hover,
+#btn2 a:hover,
+#btn3 a:hover,
+#btn4 a:hover,
+#btn5 a:hover{
+    color: rgb(255, 255, 158);
+    text-decoration: underline;
+} */
+#btn1 a:active,
+#btn2 a:active,
+#btn3 a:active,
+#btn4 a:active,
+#btn5 a:active{
+    color: red;
+}
+
+.role{
+    /* border: red solid 1px; */
+    height: 50px;
+    width: 370px;
+    position: relative;
+    float: right;
+    right: 2%;
+    top: -30px;
+}
+.role ul li{
+    padding-left: 30px;
+}
+.bp{
+    font-size: 25px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: rgb(255, 255, 158);
+    float: left;
+    /* border: red solid 2px; */
+}
+.money{
+    font-size: 25px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: #fff;
+    float: left;
+    padding-right: 30px;
+    /* border: red solid 2px; */
+   
+}
+.me{
+    float: left;
+    position: relative;
+    left: 15px;
+    top: -5px;
+    border: white solid 2px;
+}
+.MyName{
+    font-size: 25px;
+    border-style: none;
+    font-family: cursive;
+    color: #fff;
+    float: left;
+}
+.firsttable table{
+    position: absolute;
+    border: white solid 2px;
+    display: none;
+    width: 800px;
+    height: 400px;
+    left: 28%;
+    top: 20%;
+    background: #000;
+}
+.secondtable table{
+    position: absolute;
+    border: yellow solid 2px;
+    display: none;
+    width: 800px;
+    height: 400px;
+    left: 28%;
+    top: 20%;
+    background: #000;
+}
+.thirdtable table{
+    position: absolute;
+    border: rgb(55, 232, 255) solid 2px;
+    display: none;
+    width: 800px;
+    height: 400px;
+    left: 28%;
+    top: 20%;
+    background: #000;
+
+}
+.fourthtable table{
+    position: absolute;
+    border: sandybrown solid 2px;
+    display: none;
+    width: 800px;
+    height: 400px;
+    left: 28%;
+    top: 20%;
+    background: #000;
+
+}
+.fifthtable table{
+    position: absolute;
+    border: rgb(36, 216, 0) solid 2px;
+    display: none;
+    width: 800px;
+    height: 400px;
+    left: 28%;
+    top: 20%;
+    background: #000;
+}
+.inf-content{
+    height: 25%;
+}
+#tab1st tr td{
+    font-family: cursive;
+    font-size: 25px;
+	text-shadow: 5px 5px 5px gray, 0px 0px 2px gray;
+	color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    /* border: blue solid 1px; */
+}
+.edu-content{
+    height: 25%;
+}
+.badge{
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.badge-pill{
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+.badge-primary{
+    background-color: #007fff;
+}
+.badge-middle{
+    background-color: #00ff62;
+}
+.badge-penult {
+    background-color: #ffb938;
+}
+.badge-final{
+    background-color: #ff388b;
+}
+#tab2nd tr td{
+    font-family: cursive;
+    font-size: 25px;
+	text-shadow: 5px 5px 5px gray, 0px 0px 2px gray;
+	color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+#tab3rd tr td{
+    font-family: cursive;
+    font-size: 25px;
+	text-shadow: 5px 5px 5px gray, 0px 0px 2px gray;
+	color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+}
+.hob-content{
+    height: 20%;
+}
+
+#tab4th tr td{
+    font-family: cursive;
+    font-size: 25px;
+	text-shadow: 5px 5px 5px gray, 0px 0px 2px gray;
+	color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    /* border: blue solid 1px; */
+}
+.qua-content{
+    height: 33%;
+}
+#tab5th tr td{
+    font-family: cursive;
+    font-size: 25px;
+	text-shadow: 5px 5px 5px gray, 0px 0px 2px gray;
+	color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}
+.content{
+    position: absolute;
+    float: left;
+    /* top: 58%; */
+    bottom: 5%;
+    left: 3%;
+    width: 180px;
+    height: 350px;
+    /* border: blue solid 1px; */
+}
+.col{
+    font-size: 25px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: darkgray;
+    outline: none;
+}
+.col1 p,
+.col2 p{
+    font-size: 20px;
+}
+.col2{
+    margin-top: 20px;
+}
+.col1 ul,
+.col2 ul{
+    border: grey solid 2px;
+}
+.col1 ul li,
+.col2 ul li{
+    margin-left: 10px;
+}
+.col1 ul li button,
+.col2 ul li button{
+    /* border: yellow solid 1px; */
+    font-size: 20px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: darkgray;
+    outline: none;
+}
+.col1 ul li button a,
+.col2 ul li button a,
+.col3 ul li button a{
+    text-decoration: none;
+}
+.col1 li button a:active,
+.col2 li button a:active{
+    color: red;
+}
+.col3{
+    text-align: center;
+}
+.col3 ul{
+    margin-top: 30px;
+    border: rgb(240, 239, 169) solid 1px;
+    height: 70px;
+    background-color: rgba(255, 217, 0, 0.5);
+}
+.col3 ul li{
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.col3 ul li button{
+    font-size: 35px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.col3 li button a:hover{
+    color: red;
+    clear: both;
+}
+.col3 li button a:active{
+    color: yellow;
+}
+.footer{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    float: right;
+    left: 77%;
+    top: 91%;
+    /* border: blue solid 1px; */
+}
+.area li{
+    position: relative;
+    float: left;
+    color: #fff;
+    top: 5px;
+    /* border: blue solid 1px; */
+}
+.area li button{
+    width: 30px;
+    font-size: 25px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: darkgray;
+    outline: none;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.area li button a{
+    text-decoration: none;
+}
+.area li button a:hover{
+    color: yellow;
+}
+.area li button a:active{
+    color: yellow;
+}
+.binding{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: #fff solid 1px;
+    text-align: center;
+    left: 50px;
+}
+#bdbtn{
+    font-family: cursive;
+    font-size: 22px;
+    color: #fff;
+}
+#bdbtn a:active{
+    color: red;
+}
+#bd img{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    border-radius: 40%;
+    opacity: 0.7;
+}
+#bd p{
+    position: absolute;
+    left: 30px;
+    top: 5px;
+    color: #000;
+    font-weight: bold;
+}
+#bd{
+    /* border: #ff388b solid 1px; */
+    display: none;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: -60px;
+}
+.add{
+    width: 35px;
+    height: 32px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 8px;
+    border: #fff solid 1px;
+    position: relative;
+    float: left;
+    left: 50px;
+}
+.friend{
+    width: 33px;
+    height: 35px;
+    font-size: 20px;
+    border: #fff solid 1px;
+    position: absolute;
+    float: left;
+    left: 80px;
+    padding-left: 5px;
+}
+.areabtn{
+    border: blue solid 1px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    float: left;
+    left: 45%;
+    top: 30%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+.areabtn ul li{
+    position: relative;
+    height: 50px;
+    top: 10px;
+}
+.areabtn ul li button{
+    font-size: 20px;
+    background: none;
+    border-style: none;
+    font-family: cursive;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+.areabtn ul li button a{
+    text-decoration: none;
+}
+.areabtn ul li button a:hover{
+    color: yellow;
+}
+.areabtn ul li button a:active{
+    color: red;
+}
+#earth{
+    /* border: #fff solid 1px; */
+    display: none;
+    font-size: 25px;
+    position: absolute;
+    float: right;
+    left: 42%;
+    top: 30%;
+    animation: cartoon 3s linear;
+}
+#area-select1{
+    display: inline;
+}
+#area-select2{
+    display: none;
+}
+#area-select3{
+    display: none;
+}
+#area-select4{
+    display: none;
+}
+#area-select5{
+    display: none;
+}
+#area-select6{
+    display: none;
+}
+
+@keyframes cartoon{
+    0%{
+        position: absolute;
+        float: right;
+        left: 75%;
+        top: 85%;
+    }
+    40%{
+        position: absolute;
+        float: right;
+        left: 75%;
+        top: 25%;
+    }
+    80%{
+        position: absolute;
+        float: right;
+        left: 42%;
+        top: 25%;
+    }
+    90%{
+        position: absolute;
+        float: right;
+        left: 42%;
+        top: 30%;
+    }
+    100%{
+        position: absolute;
+        float: right;
+        left: 42%;
+        top: 30%;
+    }
+}
+

@@ -1,0 +1,312 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(65, 65, 65, 0.5); */
+}
+
+/* html,
+body:before {
+    background: url(../image/all.jpg) no-repeat;
+    background-size: 70% 70%;
+    -moz-background-size: 50% 100%;
+    -webkit-background-size: 70% 70%;
+    /* border: 1px solid red; 
+} */
+
+.loginjpg{
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+}
+
+.rightjpg{
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    width: 53%;
+    height: 100%;
+}
+.kongt{
+    position: fixed;
+    top: 18%;
+    left: 12%;
+    width: 2%;
+    z-index: -1;
+    animation: cartoon 10s linear 0s infinite normal;
+    clear: both;
+}
+@keyframes cartoon{
+    0%{
+        position: fixed;
+        top: 18%;
+        opacity: 0.7;
+    }
+    25%{
+        position: fixed;
+        top: 40%;
+        opacity: 0.5;
+    }
+    50%{
+        position: fixed;
+        top: 60%;
+        opacity: 0.3;
+    }
+    75%{
+        position: fixed;
+        top: 80%;
+        opacity: 0;
+    }
+    100%{
+        position: fixed;
+        top: 0;
+        opacity: -1;
+    }
+}
+
+.zuo-box{
+    padding-right: 475px;
+    padding-left: 70px;
+    padding-top: 150px;
+    text-align: justify;
+    max-width: 100%;
+    /* border: 1px solid red; */
+}
+
+h2{
+    width: 350px;
+    font-size: 30px;
+    font-weight: 50;
+    margin-bottom: 50px;
+    color: #fff;
+    position: relative;
+    top: 80px;
+    /* border: 1px solid red; */
+}
+
+.zuoli li{
+    color: #fff;
+    list-style: disc;
+    margin-top: 10px;
+    margin-left: -40px;
+    max-width: 300px;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 920px) {
+    .loginjpg{
+        width: 100%;
+        height: 100%;
+    }
+    .rightjpg{
+        width: 0%;
+    }
+    h2{
+        font-size: 0px;
+    }
+    .zuoli li{
+        font-size: 0px;
+    }
+    .you-box .you-box-header{
+        position: relative;
+        top: 50px;
+        left: -50px;
+        float: center;
+        width: 70%;
+    }
+    .you-box .you-box-header .title{
+        position: relative;
+        left: 10%;
+        top: -120px;
+        margin-bottom: -30px;
+        font-size: 25px;
+        font-weight: 1000;
+        color: #fff;
+    }
+    .you-box-body .layui-input{
+        position: relative;
+        bottom: 80px;
+        left: 40px;
+        width: 100%;
+    }
+    .you-box-body .f1 #Cookies{
+        position: relative;
+        bottom: 80px;
+        left: 20px;
+    }
+    .you-box-body .f1 .remember{
+        position: relative;
+        color: #050505;
+        bottom: 80px;
+        left: 20px;
+        font-size: 15px;   
+        font-family: yahei; 
+        font-weight: normal;
+    }
+    .you-box-body .btn-submit{
+        position: relative;
+        float: left;
+        bottom: 80px;
+    }
+    .kongt{
+        position: relative;
+        top: 18%;
+        left: 25%;
+        width: 4%;
+        z-index: 1;
+        animation: cartoon 10s linear 0s infinite normal;
+    }
+    @keyframes cartoon{
+        0%{
+            position: fixed;
+            top: 18%;
+            opacity: 0.5;
+        }
+        25%{
+            position: fixed;
+            top: 40%;
+            opacity: 0.3;
+        }
+        50%{
+            position: fixed;
+            top: 60%;
+            opacity: 0.1;
+        }
+        75%{
+            position: fixed;
+            top: 80%;
+            opacity: 0;
+        }
+        100%{
+            position: fixed;
+            top: 0;
+            opacity: -1;
+        }
+    }
+    
+}
+
+.you-box-body{
+    height: 185px;
+    padding: 30px 90px 0;
+    position: relative;
+    top: -20px;
+}
+
+.title{
+    width: 350px;
+    font-size: 30px;
+    font-weight: 50;
+    color: #fff;
+    position: relative;
+    left: 15%;
+    bottom: 10px;
+    /* border: 1px solid red; */
+}
+
+.you-box-body .layui-input{
+    margin-top: 20px;
+    width: 80%;
+    position: relative;
+    left: 20px;
+}
+
+.you-box-body input {
+    font-size: 20px;
+    padding-left: 34px;
+    color: #929191;
+    position: relative;
+    left: 20px;
+}
+
+.you-box-body .you-box-right{
+    float: left ;
+    height: 100%;
+    position: relative;
+    margin-top: 30px;
+    color: #fff;
+    top: -100px;
+    /* border: 1px solid red; */
+}
+
+.f1 {
+    margin-bottom: 10px;
+    float: left;
+}
+
+.you-box-body .f1 #Cookies{
+    width: 15px;
+    height: 15px;
+    margin: 8px 5px 0px 0px;
+    float: left;
+    /* cursor: pointer; */
+    outline: none;
+    vertical-align:middle
+}
+
+.f1 .remember{
+    color: #fff;
+    font-size: 15px;    
+    position: relative;
+    left: 20px;
+
+}
+
+.you-box-body .btn-submit{
+    position: relative;
+    left: 20px;
+    float: left;
+    font-weight: 1500;
+    width: 80%;
+    font-size: 20px;
+    background-color: rgb(255, 166, 64);
+}
+
+.you-box-body .btn-submit a:hover{
+    color: rgb(255, 10, 10);
+}
+
+.you-box-header{
+    font-family: 'Courier New', Courier, monospace;
+    color: #050505;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    bottom: 60px;
+    float: right;
+    margin-right: 215px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
